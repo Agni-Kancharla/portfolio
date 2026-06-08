@@ -540,3 +540,45 @@ iframe{
     background: #fafafa;
     font-weight: bold;
 }
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content h2 {
+        font-size: 24px;
+    }
+
+    #projects .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    #experience .experience-cards {
+        grid-template-columns: 1fr;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
