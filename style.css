@@ -497,3 +497,46 @@ iframe{
     width:80%;
     max-width:900px;
 }
+/* EDUCATION TABLE (MODERN STYLE) */
+
+.education-table {
+    margin-top: 30px;
+}
+
+.education-table h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.education-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.education-table th,
+.education-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.education-table thead {
+    background: linear-gradient(90deg, #00a2ff, #ff00ff);
+    color: white;
+}
+
+.education-table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.education-table tbody tr:hover {
+    background: #f1f9ff;
+}
+
+.education-table tfoot {
+    background: #fafafa;
+    font-weight: bold;
+}
