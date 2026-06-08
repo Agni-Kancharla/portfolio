@@ -582,3 +582,29 @@ iframe{
         height: 300px;
     }
 }
+/* UI IMPROVEMENTS */
+
+.hero-content h1 {
+    letter-spacing: 2px;
+}
+
+.project-card {
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
+}
