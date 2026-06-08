@@ -491,3 +491,9 @@ video{
     border-radius:20px;
     box-shadow:0 0 20px rgba(0,0,0,0.15);
 }
+iframe{
+    border:none;
+    border-radius:20px;
+    width:80%;
+    max-width:900px;
+}
