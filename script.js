@@ -20,3 +20,28 @@ document.querySelector(".contact-form").addEventListener("submit", function(e) {
         e.preventDefault();
     }
 });
+document.querySelector(".contact-form").addEventListener("submit", function(e) {
+
+    let name = document.querySelector("input[type='text']").value.trim();
+    let email = document.querySelector("input[type='email']").value.trim();
+
+    if (name === "") {
+        alert("Name is required");
+        e.preventDefault();
+        return;
+    }
+
+    if (!email.includes("@") || !email.includes(".")) {
+        alert("Enter a valid email address");
+        e.preventDefault();
+        return;
+    }
+
+    if (name.length < 3) {
+        alert("Name must be at least 3 characters");
+        e.preventDefault();
+        return;
+    }
+
+    alert("Form submitted successfully!");
+});
